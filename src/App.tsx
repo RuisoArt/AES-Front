@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import blockImg from './assets/candado.png'
 import './App.css'
 
 function App() {
@@ -9,9 +10,14 @@ function App() {
 
   return (
     <>
+      <div className="p-8">
+        <h1 className="text-3xl font-bold text-blue-600">
+          Tailwind funcionando
+        </h1>
+      </div>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
+          <img src={blockImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
