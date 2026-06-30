@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <MyHeader />
-      <MyBody />
+      {/* <MyBody /> */}
       <MyFooter />
     </>
   )

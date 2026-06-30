@@ -3,6 +3,8 @@ https://nextjs.org/docs/app/getting-started/css?utm_source=chatgpt.com#tailwind-
 instalar Tailwind css (framework)
 
     pnpm add -D tailwindcss @tailwindcss/postcss
+    pnpm install tailwindcss @tailwindcss/postcss postcss
+
 
 Cuando cambio a Tailwind el vite.config.ts que era:
 
@@ -22,3 +24,15 @@ cambia a
     export default defineConfig({
     plugins: [tailwindcss()]
     });
+
+crear archivo en la raiz del proyecto
+
+    postcss.config.js
+
+con:
+
+    export default {
+  plugins: {
+    '@tailwindcss/postcss': {},
+  },
+}
