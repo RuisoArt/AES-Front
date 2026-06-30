@@ -1,13 +1,13 @@
 import './App.css'
-import MyBody from './components/MyBody.tsx';
-import MyHeader from './components/MyHeader.tsx';
-import MyFooter from './components/MyFooter.tsx';
+import MyBody from './components/body/MyBody.tsx';
+import MyHeader from './components/header/MyHeader.tsx';
+import MyFooter from './components/footer/MyFooter.tsx';
 
 function App() {
   return (
     <>
       <MyHeader />
-      {/* <MyBody /> */}
+      <MyBody />
       <MyFooter />
     </>
   )

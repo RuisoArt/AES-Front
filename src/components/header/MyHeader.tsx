@@ -1,6 +1,6 @@
 /**https://hyperui.dev/components/marketing/headers/ => Icon on the left, links in the middle and call to actions on the right (Dark) */
-import logo from '../assets/key-svgrepo-com.svg';
-import headerBg from '../assets/pexels-wiredsmart-1957615-3868576.jpg';
+import logo from '../../assets/key-svgrepo-com.svg';
+import headerBg from '../../assets/pexels-wiredsmart-1957615-3868576.jpg';
 
 export default function MyHeader() {
     return(

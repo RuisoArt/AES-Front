@@ -1,6 +1,6 @@
 /** https://hyperui.dev/components/marketing/footers/#component-8 => Centered with branding*/
-import logo from '../assets/key-svgrepo-com.svg';
-import { githubUrl, instagramUrl, linktreeUrl } from '../../config/constants.tsx';
+import logo from '../../assets/key-svgrepo-com.svg';
+import { githubUrl, instagramUrl, linktreeUrl } from '../../../config/constants.tsx';
 
 export default function MyFooter(){
     return(
